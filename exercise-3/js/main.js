@@ -245,5 +245,8 @@ $(function() {
             draw(currentData);
         });
 
+        //Filter data, update chart
+        var currentData = filterData();
+        draw(currentData);
     });   
 });
